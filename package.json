@@ -15,48 +15,48 @@
   "bugs": "https://github.com/unplugin/unplugin-icons/issues",
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./esbuild": {
-      "require": "./dist/esbuild.cjs",
-      "import": "./dist/esbuild.js"
+      "import": "./dist/esbuild.js",
+      "require": "./dist/esbuild.cjs"
     },
     "./loaders": {
-      "require": "./dist/loaders.cjs",
-      "import": "./dist/loaders.js"
+      "import": "./dist/loaders.js",
+      "require": "./dist/loaders.cjs"
     },
     "./nuxt": {
-      "require": "./dist/nuxt.cjs",
-      "import": "./dist/nuxt.js"
+      "import": "./dist/nuxt.js",
+      "require": "./dist/nuxt.cjs"
     },
     "./resolver": {
-      "require": "./dist/resolver.cjs",
-      "import": "./dist/resolver.js"
+      "import": "./dist/resolver.js",
+      "require": "./dist/resolver.cjs"
     },
     "./rolldown": {
-      "require": "./dist/rolldown.cjs",
-      "import": "./dist/rolldown.js"
+      "import": "./dist/rolldown.js",
+      "require": "./dist/rolldown.cjs"
     },
     "./rollup": {
-      "require": "./dist/rollup.cjs",
-      "import": "./dist/rollup.js"
+      "import": "./dist/rollup.js",
+      "require": "./dist/rollup.cjs"
     },
     "./rspack": {
-      "require": "./dist/rspack.cjs",
-      "import": "./dist/rspack.js"
+      "import": "./dist/rspack.js",
+      "require": "./dist/rspack.cjs"
     },
     "./types": {
-      "require": "./dist/types.cjs",
-      "import": "./dist/types.js"
+      "import": "./dist/types.js",
+      "require": "./dist/types.cjs"
     },
     "./vite": {
-      "require": "./dist/vite.cjs",
-      "import": "./dist/vite.js"
+      "import": "./dist/vite.js",
+      "require": "./dist/vite.cjs"
     },
     "./webpack": {
-      "require": "./dist/webpack.cjs",
-      "import": "./dist/webpack.js"
+      "import": "./dist/webpack.js",
+      "require": "./dist/webpack.cjs"
     },
     "./package.json": "./package.json",
     "./types/astro": {

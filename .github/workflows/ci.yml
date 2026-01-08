@@ -8,8 +8,8 @@ on:
   #   branches:
   #     - main
   pull_request:
-    # branches:
-    #   - main
+  # branches:
+  #   - main
 
 jobs:
   ci:
@@ -30,14 +30,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
-        run: pnpm build
-
       - name: Test
         run: pnpm test
 
       - name: Typecheck
         run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Build
+        run: pnpm build
 
       - name: Example build
         run: pnpm example:build
