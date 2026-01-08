@@ -1,6 +1,9 @@
 name: Publish Any Commit
 on: [push, pull_request]
 
+env:
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
+
 permissions: {}
 
 concurrency:
