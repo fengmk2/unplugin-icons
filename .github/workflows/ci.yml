@@ -4,12 +4,12 @@ env:
   VP_TOKEN: ${{ secrets.VP_TOKEN }}
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   pull_request:
-    branches:
-      - main
+    # branches:
+    #   - main
 
 jobs:
   ci:
