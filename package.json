@@ -15,48 +15,48 @@
   "bugs": "https://github.com/unplugin/unplugin-icons/issues",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
     },
     "./esbuild": {
-      "import": "./dist/esbuild.js",
-      "require": "./dist/esbuild.cjs"
+      "require": "./dist/esbuild.cjs",
+      "import": "./dist/esbuild.js"
     },
     "./loaders": {
-      "import": "./dist/loaders.js",
-      "require": "./dist/loaders.cjs"
+      "require": "./dist/loaders.cjs",
+      "import": "./dist/loaders.js"
     },
     "./nuxt": {
-      "import": "./dist/nuxt.js",
-      "require": "./dist/nuxt.cjs"
+      "require": "./dist/nuxt.cjs",
+      "import": "./dist/nuxt.js"
     },
     "./resolver": {
-      "import": "./dist/resolver.js",
-      "require": "./dist/resolver.cjs"
+      "require": "./dist/resolver.cjs",
+      "import": "./dist/resolver.js"
     },
     "./rolldown": {
-      "import": "./dist/rolldown.js",
-      "require": "./dist/rolldown.cjs"
+      "require": "./dist/rolldown.cjs",
+      "import": "./dist/rolldown.js"
     },
     "./rollup": {
-      "import": "./dist/rollup.js",
-      "require": "./dist/rollup.cjs"
+      "require": "./dist/rollup.cjs",
+      "import": "./dist/rollup.js"
     },
     "./rspack": {
-      "import": "./dist/rspack.js",
-      "require": "./dist/rspack.cjs"
+      "require": "./dist/rspack.cjs",
+      "import": "./dist/rspack.js"
     },
     "./types": {
-      "import": "./dist/types.js",
-      "require": "./dist/types.cjs"
+      "require": "./dist/types.cjs",
+      "import": "./dist/types.js"
     },
     "./vite": {
-      "import": "./dist/vite.js",
-      "require": "./dist/vite.cjs"
+      "require": "./dist/vite.cjs",
+      "import": "./dist/vite.js"
     },
     "./webpack": {
-      "import": "./dist/webpack.js",
-      "require": "./dist/webpack.cjs"
+      "require": "./dist/webpack.cjs",
+      "import": "./dist/webpack.js"
     },
     "./package.json": "./package.json",
     "./types/astro": {
@@ -118,15 +118,15 @@
     "types"
   ],
   "scripts": {
-    "build": "tsx scripts/prebuild.ts && tsdown",
-    "dev": "tsx scripts/prebuild.ts && tsdown --watch src",
+    "build": "tsx scripts/prebuild.ts && vite lib",
+    "dev": "tsx scripts/prebuild.ts && vite lib --watch src",
     "example:build": "pnpm -C examples/vite-vue3 run build",
     "example:dev": "pnpm -C examples/vite-vue3 run dev",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp",
-    "test": "vitest",
+    "test": "vite test",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -174,15 +174,15 @@
     "@svgx/core": "^1.0.1",
     "@types/debug": "^4.1.12",
     "@types/node": "^24.8.1",
+    "@voidzero-dev/vite-plus": "catalog:",
     "@vue/compiler-sfc": "^3.5.22",
     "bumpp": "^10.3.1",
     "eslint": "^9.38.0",
     "publint": "^0.3.14",
     "rollup": "^4.52.5",
-    "tsdown": "^0.16.4",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "vite": "^7.1.10",
-    "vitest": "^4.0.16"
+    "vite": "catalog:",
+    "vitest": "catalog:"
   }
 }

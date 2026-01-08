@@ -1,4 +1,4 @@
-import type { UserConfig } from 'vite'
+import type { UserConfig } from '@voidzero-dev/vite-plus'
 import { cpSync, promises as fs } from 'node:fs'
 import Vue from '@vitejs/plugin-vue'
 import { ExternalPackageIconLoader, FileSystemIconLoader } from 'unplugin-icons/loaders'

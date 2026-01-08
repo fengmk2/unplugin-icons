@@ -5,8 +5,8 @@
   "description": "unplugin-icons + Solid (Vite)",
   "license": "MIT",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
+    "start": "vite dev",
+    "dev": "vite dev",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -17,8 +17,9 @@
     "@iconify-json/logos": "^1.2.9",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
+    "@voidzero-dev/vite-plus": "catalog:",
     "unplugin-icons": "workspace:*",
-    "vite": "^7.1.10",
+    "vite": "catalog:",
     "vite-plugin-solid": "^2.11.9"
   },
   "stackblitz": {

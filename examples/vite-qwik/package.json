@@ -8,11 +8,11 @@
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.types": "tsc --incremental --noEmit",
-    "dev": "vite --mode ssr",
+    "dev": "vite dev --mode ssr",
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
-    "start": "vite --open --mode ssr",
+    "start": "vite dev --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
@@ -23,6 +23,7 @@
     "@types/node-fetch": "latest",
     "@typescript-eslint/eslint-plugin": "6.5.0",
     "@typescript-eslint/parser": "6.5.0",
+    "@voidzero-dev/vite-plus": "catalog:",
     "eslint": "8.48.0",
     "eslint-plugin-qwik": "1.2.10",
     "node-fetch": "3.3.2",
@@ -30,7 +31,7 @@
     "typescript": "5.2.2",
     "undici": "5.23.0",
     "unplugin-icons": "workspace:*",
-    "vite": "4.4.9",
+    "vite": "catalog:",
     "vite-tsconfig-paths": "4.2.0"
   },
   "stackblitz": {

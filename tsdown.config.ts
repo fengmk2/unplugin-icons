@@ -1,5 +1,5 @@
 import * as fsPromises from 'node:fs/promises'
-import { defineConfig } from 'tsdown'
+import { defineConfig } from '@voidzero-dev/vite-plus/lib'
 
 export default defineConfig({
   entry: ['src/*.ts'],
