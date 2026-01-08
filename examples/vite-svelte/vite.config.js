@@ -1,7 +1,7 @@
 import process from 'node:process'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { defineConfig } from '@voidzero-dev/vite-plus'
 import Icons from 'unplugin-icons/vite'
-import { defineConfig } from 'vite'
 
 const options = process.env.CUSTOM_COMPILER === 'true'
   ? {

@@ -4,13 +4,14 @@
   "private": true,
   "description": "unplugin-icons + VanillaJS (Vite)",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev",
     "build": "vite build"
   },
   "devDependencies": {
     "@iconify-json/mono-icons": "^1.2.0",
+    "@voidzero-dev/vite-plus": "catalog:",
     "unplugin-icons": "workspace:*",
-    "vite": "^7.1.10"
+    "vite": "catalog:"
   },
   "stackblitz": {
     "installDependencies": false,

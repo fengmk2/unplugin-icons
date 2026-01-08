@@ -2,7 +2,21 @@ packages:
   - examples/*
   - '!examples/nuxt4'
 
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+catalog:
+  '@voidzero-dev/vite-plus': latest
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
 onlyBuiltDependencies:
   - core-js
   - esbuild
   - svelte-preprocess
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'

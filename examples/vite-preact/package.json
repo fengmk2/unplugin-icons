@@ -5,7 +5,7 @@
   "private": true,
   "description": "unplugin-icons + Preact (Vite)",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
@@ -17,9 +17,10 @@
     "@preact/preset-vite": "^2.10.2",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
+    "@voidzero-dev/vite-plus": "catalog:",
     "typescript": "^5.9.3",
     "unplugin-icons": "workspace:*",
-    "vite": "^7.1.10",
+    "vite": "catalog:",
     "vite-plugin-inspect": "^11.3.3"
   },
   "stackblitz": {
